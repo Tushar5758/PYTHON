@@ -1,0 +1,13 @@
+a=int(input("enter a ="))
+b=int(input("enter b="))
+x=input("enter operation : ")
+match x:
+  case '+' :
+    print("addition : ",a+b)
+  case '-':
+    print("subtraction : ",a-b)
+  case '*':
+    print("multiplication = ",a*b)
+  case '/':
+    print("division : ",a/b)
+    
