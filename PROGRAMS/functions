@@ -1,0 +1,61 @@
+def calculateGmean(a, b):
+  mean = (a*b)/(a+b)
+  print(mean)
+
+def isGreater(a, b):
+  if(a>b):
+    print("First number is greater")
+  else:
+    print("Second number is greater or equal")
+
+def isLesser(a, b):
+  pass
+  
+
+a = 9
+b = 8
+isGreater(a, b)
+calculateGmean(a, b)
+# gmean1 = (a*b)/(a+b)
+# print(gmean1)
+c = 8
+d = 74
+isGreater(c, d)
+calculateGmean(c, d)
+# gmean2 = (c*d)/(c+d)
+# print(gmean2)
+
+def isgreat(a,b):
+  if(a>b):
+    print(a,"is graeter than",b)
+  else:
+     print(b,"is graeter than",a)
+
+a=int(input("enter a = "))
+b=int(input("enter b = ")) 
+isgreat(a,b)
+def swap(a,b):
+  a=a+b
+  b=a-b
+  a=a-b
+  print("a = ",a)
+  print("b = ",b)
+
+a=int(input("enter a = "))
+b=int(input("enter b = ")) 
+swap(a,b)
+Using pass as a placeholder inside an if statement
+x = 11
+if x > 10:
+	pass
+else:
+	print("x is less than or equal to 10")
+
+# Using pass in a function definition as a placeholder for implementation
+def my_function():
+	pass
+
+# Using pass in a class definition as a placeholder for implementation
+class MyClass:
+	def __init__(self):
+		pass
